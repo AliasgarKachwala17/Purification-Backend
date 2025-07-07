@@ -4,8 +4,8 @@ from django.db import models
 class Campaign(models.Model):
     CATEGORY_CHOICES =[
         ('sadaqah','Sadaqah'),
-        ('zakat-al-mal','Zakat-al-mal'),
-        ('zakat-al-Fitr','Zakat-al-Fitr'),
+        ('zakat-al-mal','Zakat-al-Mal'),
+        ('zakat-al-fitr','Zakat-al-Fitr'),
         ('others','Others')
     ]
     title = models.CharField(max_length=250)

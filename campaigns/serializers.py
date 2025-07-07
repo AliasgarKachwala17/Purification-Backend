@@ -3,5 +3,5 @@ from .models import Campaign
 
 class CampaignSerializer(serializers.ModelSerializer):
     class Meta:
-        model = 'Campaign'
+        model = Campaign
         fields = '__all__'
